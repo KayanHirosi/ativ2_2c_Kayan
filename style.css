@@ -1,0 +1,14 @@
+body {
+    background-color: blueviolet;
+}
+@media screen and (max-width: 600px) {
+    .part1{
+        color:red;
+    }
+    .part2{
+        color: aliceblue;
+    }
+    .part3{
+        color: rgb(251, 255, 0);
+    }
+}  
