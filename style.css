@@ -12,3 +12,12 @@ body {
         color: rgb(251, 255, 0);
     }
 }  
+
+.part1 {
+    border-color: blueviolet;
+    border-style: outset;
+    border-width: 6px;
+    padding: 20%;
+    
+}
+
