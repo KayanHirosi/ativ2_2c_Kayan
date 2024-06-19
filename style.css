@@ -1,7 +1,13 @@
 body {
     background-color: blueviolet;
 }
-@media screen and (max-width: 600px) {
+
+.part2 span{
+    display: none;
+}
+
+
+@media screen and (min-width: 600px) {
     .part1{
         color:red;
     }
@@ -11,13 +17,89 @@ body {
     .part3{
         color: rgb(251, 255, 0);
     }
-}  
-
-.part1 {
+    .part1 {
     border-color: blueviolet;
     border-style: outset;
     border-width: 6px;
-    padding: 20%;
+    margin-right: 87%;
     
+
+
 }
+
+    .part2 {
+    border-width: 0px;
+}
+.part3 {
+    border-width: 0px;
+}
+
+
+} 
+
+@media screen and (max-width: 1750px) {
+    .part1{
+        color:rgb(234, 0, 255);
+    }
+    .part2{
+        color: aliceblue;
+    }
+    .part3{
+        color: rgb(251, 255, 0);
+    }
+
+    body{
+    background-color: red;}
+        
+    .part1 {
+        border-width: 0px;
+    }
+
+    .part2 {
+        border-color: rgb(4, 0, 243);
+        border-style: outset;
+        border-width: 6px;
+        margin-right: 87%;
+        
+    
+    }
+    .part3 {
+        border-width: 0px;
+    }
+
+}  
+
+@media screen and (max-width: 1109px) {
+    .part1{
+        color:rgb(234, 0, 255);
+    }
+    .part2{
+        color: aliceblue;
+    }
+    .part3{
+        color: rgb(251, 255, 0);
+    }
+
+    body{
+    background-color: red;}
+        
+    .part1 {
+        border-width: 0px;
+    }
+
+    .part2 {
+        border-width: 0px;
+    }
+    .part3 {
+        border-color: rgb(206, 110, 1);
+        border-style: outset;
+        border-width: 6px;
+        margin-right: 87%;
+        
+    
+    }
+
+
+
+}  
 
